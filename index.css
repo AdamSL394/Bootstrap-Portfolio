@@ -1,7 +1,24 @@
+body { 
+    background: grey !important; 
+    }
 .jumbotron{
     height: 100px;
+    background: white !important;
 }
-.p-3{
-    width:100px;
-    margin: 0;
+.col-9{
+    background-color: aqua;
 }
+.container{
+    /* box-sizing: content-box; */
+    background-color:white;
+    /* height:500px */
+  }
+
+
+
+
+
+
+
+
+
