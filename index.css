@@ -1,18 +1,38 @@
-body { 
-    background: grey !important; 
-    }
-.jumbotron{
-    height: 100px;
-    background: white !important;
+html {
+    position: relative;
+    min-height: 100%;
 }
-.col-9{
-    background-color: aqua;
+body{
+    margin-bottom: 100px;
 }
+footer {
+    position: absolute;
+    bottom:0;
+    height:50px;
+    width:100%;
+}
+
+
 .container{
     /* box-sizing: content-box; */
     background-color:white;
-    /* height:500px */
+    /* padding-left: 25px;
+    padding-top: 25px;
+    padding-right: 25px;
+    padding-bottom: 25px; */
   }
+.col-md-12{
+    padding-top: 30px;
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-bottom: 30px;
+}
+.col-lr-1{
+    padding-left: 10px;
+}
+p{
+    margin-top: 5px;
+}
 
 
 
