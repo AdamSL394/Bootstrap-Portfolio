@@ -1,6 +1,28 @@
 body{
     margin-bottom: 100px;
     font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
-    font-size: 18px;
+    font-size: 16px;
 
+}
+.navbar{
+    padding-top: 0px;
+    padding-bottom: 0px;
+}
+.navbar-brand{
+    background-color: #4aaaaf; 
+    font-family: Georgia, 'Times New Roman', Times, serif; 
+    font-size: 30px;
+}
+.container{
+    height:500px; 
+    background-color: white;
+}
+.mt-4{
+    border-top: 4px solid #4aaaaf !important;
+}
+span{
+    color:darkgrey;
+    font-size: 12px;
+    position: absolute;
+    bottom: 0;
 }
