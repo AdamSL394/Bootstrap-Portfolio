@@ -1,10 +1,10 @@
 # Bootstrap-Portfolio
 
-This Repo shows the plug ins and design of a website using <a href="https://getbootstrap.com/">Bootstrap</a>. The plug ins allow us to have minimal CSS & javascript qualites. Bootstrap works off of a grid & row system. This allows user to add in coloumns and rows make the screen change between devices. 
+This Repo shows the plug ins and design of a website using <a href="https://getbootstrap.com/">Bootstrap</a>. The plug ins allow us to have minimal CSS & javascript qualities. Bootstrap works off of a grid & row system. This allows user to add in columns and rows make the screen change between devices. 
 
-## Prequisites
+## Perquisites
 
-In order to use Bootstrap plud-ins we will need to copy and paste the code from their website in our HTML file. This will link our HTML file to there stylesheets. 
+In order to use Bootstrap plug-ins we will need to copy and paste the code from their website in our HTML file. This will link our HTML file to their stylesheets. 
 
 
 ## Running Tests 
@@ -18,9 +18,11 @@ Adjust the window size to see the content shift as the screen sizes reaches diff
 -CSS
 -Bootstrap
 
-#Local Development Enviormer for website Repo
+#Local Development Environment for website Repo
 The following will get up and running locally.
 
 Author
 Adam Lehrer
+
+
 
