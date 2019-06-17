@@ -1,76 +1,257 @@
 <!doctype html>
 <html lang="en">
-  <head>
+
+<head>
     <!-- Required meta tags -->
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.2/animate.min.css">
+    <link rel="stylesheet" href="animate.min.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+    integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.0/jquery.min.js"></script>
+    <link href="https://fonts.googleapis.com/css?family=Playball&display=swap" rel="stylesheet">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <script src="https://kit.fontawesome.com/86b979d5af.js"></script>
     <!-- Bootstrap CSS -->
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+        integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
     <link rel="stylesheet" href="index.css" type="text/css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/uikit/3.1.5/css/uikit.min.css" />
 
-  
+<!-- UIkit JS -->
+
     <title>About Me</title>
-  </head>
-  <body class="bg-light">
-    <nav class="navbar navbar-expand-lg navbar-light bg-white">
-        <div class="container">
-            <div class="navbar-brand p-3 text-white"><h1>Adam Lehrer</h1></div>
-            <div class="navbar-toggler"  data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
-         </div>
+</head>
 
-    <container>
-        <div class="collapse navbar-collapse" id="navbarNav">
-            <ul class="navbar-nav">
-                <li class="nav-item ">
-                <a class="nav-link" href="#">About  | <span class="sr-only">(current)</span></a>
+<body>
+    <div class="row">
+        <div class="leftSide">
+            <h1 class="name animated  zoomIn delay-1s">Adam Lehrer</h1>
+            <div class="icons" style="color:black">
+                <a href="https://www.linkedin.com/in/adam-lehrer-968731b5/" target="_blank">
+                    <i class="fab fa-linkedin" style="font-size: 1em"></i>
+                </a>
+                <a href="https://github.com/AdamSL394" target="_blank">
+                    <i class="fab fa-github-square" style="font-size: 1em; color:white;"></i>
+                </a>
+            </div>
+   
+
+        <div class="pages">
+            <ul>
+                <li>
+                    <a class="animated  zoomIn delay-1s" href="#me">About Me </a>
                 </li>
-                <li class="nav-item">
-                <a class="nav-link" href="portfolio.html">Profile |</a>
+                <li>
+                    <a class="animated  zoomIn delay-1s" href="#port">Portfolio </a>
                 </li>
-                <li class="nav-item">
-                <a class="nav-link" href="contact.html">Contact</a>
+                <li>
+                    <a class=" animated  zoomIn delay-1s" href="#ctact">Contact</a>
                 </li>
-                <li class="nav-item">
-                <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true"></a>
-                </li>
+                <!-- <li >
+                        <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true"></a>
+                    </li> -->
             </ul>
         </div>
-    </container>
-  </nav>
-            
-        <div class="container mt-5">
-            <div class="row">
-                <div class="col-md-12">
-                    <h1 class="display-4">About Me</h1>
-                    <hr class="my-4">
-                </div>
-            </div>
-            <div class="row">
-                <div class="col-md-3">
-                    <img src="1.jpg" class="img-fluid" >
-                </div>
-                <div class="col-md-9">
-                    <p class="paragraph mb-5"> Most recently working as an assistnat buyer for the Pottery Barn Kids division within William Sonoma, Adam Lehrer is a college gradtuate with a BA in Business Administartion. Looking to expand his skills and enter a new or combined job filed in tech or tech sales, he approches web development and coding with an eager attitude and a passion to learn!Nine years experience buying and selling specialized consumer products. </p>
 
-                    <p> Most recently working for a $3M superstore. Looking to utilize my knowledge to grow as a business professional in merchandising, marketing, driving sales and margin growth for categories and brands. I'm a team builder, communicating product knowledge and trends to the sales organization and upper management.</p>
-                        <p>
-                        Specialties: Inventory management, purchasing, vendor negotiation, sales and margin analysis, time management, leading a team, designing email advertising. 
+
+    </div>
+
+
+    <div class="scrollbar" id="style-default" style="height: 900px;">
+        <div class="force-overflow">
+            <div class="container mt-5">
+                <div class="background">
+                    <div>
+                        <img src="imgs/LinkedInProfile.jpeg" class="headShot img-fluid">
+                    </div>
+                    <a href="#me">
+                        <div class="arrow bounce"></div>
+                    </a>
+                </div>
+                <div class="aboutMeContainter" style="height: 550px;" >
+                    <div class="row">
+                        <div class="col-md-2 aboutMe1">
+                            <img src="imgs/LinkedInProfile.jpeg" class="fullShot img-fluid">
+                        </div>
+
+                        <div class="col-md-10">
+                        <h1 class="aboutMe" id="me">About Me</h1>
+
+
+                        <div class="paragraph mb-5">    A passion for web development and design. A project coordinator
+                            with a history managing multiple projects. With 3 years of experience sifting through data
+                            to create functionality and fix errors, I remain calm and very organized. I am excited and
+                            driven by the technology that we depend on and consume. With knowledge in JavaScript, CSS,
+                            HTML,& Microsoft Excel, I am looking to expand my skills and creations as a full stack
+                            developer. Utilizing my skills and knowledge to turn logic and functionality into a sleek
+                            design recently working as an assistnat buyer for the Pottery Barn Previouly an assistant
+                            buyer for the Pottery Barn Kids division within William Sonoma,and a college gradtuate with
+                            a BA in
+                            Business Administartion.</div>
+                        </div>
+
+                        <p>Looking to expand his skills in tech or tech sales, I approches web development and coding
+                            with an eager attitude and a passion to learn!Nine years experience buying and selling
+                            specialized consumer products. </p>
+
+                    </div>
+
+
+
+                    <p> Most recently working for a $3M superstore. Looking to utilize my knowledge to grow as a
+                        business professional in merchandising, marketing, driving sales and margin growth for
+                        categories and brands. I'm a team builder, communicating product knowledge and trends to
+                        the sales organization and upper management.</p>
+
+
+
+                    <p>
+                        Specialties: Inventory management, purchasing, vendor negotiation, sales and margin
+                        analysis, time management, leading a team, designing email advertising.
                     </p>
                 </div>
-            </div>
-        </div>
-        
-    
 
-        <footer class="mt-4 fixed-bottom bg-secondary border-top border-top-width:4px border-info text-center" >
-                <div class="container bg-secondary">
-                    <span class="copyright"> Copyright © </span>
+                <hr>
+
+
+                <h1 class="sectionPortfolio" id="port">Portfolio</h1>
+                <div class="row">
+                    <div class=col-md-4>
+                        <span class="card homework">
+                            <a href="https://adamsl394.github.io/Train-Scheduler/" target="_blank">
+                                <img src="imgs/subtle_grunge/CrazyTrain.png" class="card-img-top  img-fluid"
+                                    alt="Train-Scheduler">
+                            </a>
+                            <div class="card-body">
+                                <p class="card-text">
+                                    <h6>Crazy Train,</h6> Calculates the time your train will arrives in real time!
+                                </p>
+                            </div>
+                        </span>
+                    </div>
+
+                    <div class="col-md-4">
+                        <div class="card homework">
+                            <a href="https://adamsl394.github.io/LotteryGame/" target="_blank">
+                                <img src="imgs/subtle_grunge/Lottery-Game.png" class="card-img-top img-fluid"
+                                    alt="Lottery-Game">
+                            </a>
+                            <div class="card-body">
+                                <p class="card-text">
+                                    <h6>Lottery Game</h6>See if you can guess the right randomly generated number and
+                                    equal
+                                    the
+                                    score!
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-4">
+                        <div class="card homework">
+                            <a href="https://adamsl394.github.io/Psychic-Game/" target="_blank">
+                                <img src="imgs/subtle_grunge/Psych game.png" class="card-img-top img-fluid"
+                                    alt="Psychic-Game">
+                            </a>
+                            <div class="card-body">
+                                <p class="card-text">
+                                    <h6>Psychic Game</h6>
+                                    <ul>
+                                        <li>See if you can guess the same Letter as the computer</li>
+                                    </ul>
+                                </p>
+                            </div>
+                        </div>
+                    </div>
                 </div>
-        </footer>
-                <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
-            <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
-            <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
-        </body>
+
+                <div class="row">
+                    <div class="col-md-4">
+                        <div class="card homework">
+                            <a href="https://adamsl394.github.io/TriviaGame/" target="_blank">
+                                <img src="imgs/subtle_grunge/Trivia_Game.png" class="card-img-top img-fluid"
+                                    alt="Trivia-Game">
+                            </a>
+                            <div class="card-body">
+                                <p class="card-text">
+                                    <h6>Trivia-Game</h6>
+                                    <ul>
+                                        <li>How much do you know? Can you answer the random facts correctly?</li>
+                                    </ul>
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-4">
+                        <div class="card homework">
+                            <a href="https://adamsl394.github.io/GetGiphywitit/" target="_blank">
+                                <img src="imgs/subtle_grunge/background.png" class="card-img-top img-fluid"
+                                    alt="Giphy Website">
+                            </a>
+                            <div class="card-body">
+                                <p class="card-text">
+                                    <h6>Get Giphy With It</h6>
+                                    <ul>
+                                        <li>Find Gifs on any of your favorite topics from the click of a button.</li>
+                                    </ul>
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-md-4">
+                        <div class="card homework">
+                            <a href="https://meghabprasad.github.io/finfo/" target="_blank">
+                                <img src="imgs/subtle_grunge/Finfo.png" class="card-img-top img-fluid"
+                                    alt="Financial Information">
+                            </a>
+                            <div class="card-body" style="padding-top: 0px;">
+                                <p class="card-text">
+                                    <h6>Finfo</h6>
+                                    <ul>
+                                        <li>Sign up for to see & save stock information, check flight prices & compare
+                                            the dollar to foreign currecies </li>
+                                    </ul>
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                    <hr style="width: 1140px;">
+
+
+
+                    <div class="contactMeBackground">
+                        <h1 class="contactMe" id="ctact">Contact Me</h1>
+                        <ul class="unorderedList">
+                            <li style="margin-left: 400px;">
+                                Phone Number: 925-719-3326
+                            </li>
+                            <li style="margin-left: 400px;">
+                                Email: lehreradam394@gmail.com
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <footer>
+                Adam Lehrer
+            </footer>
+        </div>
+    </div>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/uikit/3.1.5/js/uikit.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/uikit/3.1.5/js/uikit-icons.min.js"></script>
+    
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+        integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+        crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+        integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
+        crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+        integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
+        crossorigin="anonymous"></script>
+</body>
+
 </html>

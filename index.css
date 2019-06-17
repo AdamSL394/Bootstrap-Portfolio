@@ -1,74 +1,174 @@
-html {
-    position: relative;
-    min-height: 100%;
+html{
+filter: grayscale(100%);
 }
-body{
-    margin-bottom: 100px;
-    font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
-    font-size: 16px;
-    background-image: url(imgs/subtle_grunge/subtle_grunge.png);
+html:hover{
+    filter: grayscale(0%);
+    }
+.leftSide{
+    width:300px;
+    height:100%;
+    position: fixed;
+    background-color:black;
+    font-family:'Playball', cursive; 
+    font-size: 30px;
+    color:white;
+}
+.force-overflow{
+    height:2500px;
 }
 
-footer {
-    position: absolute;
-    bottom:0;
-    height:50px;
-    width:100%;
-}
 .container{
-    background-color:white;
     padding-right: 0px;
     padding-left: 0px;
+    margin-left: 300px;
+    height: 2500px;
+    margin-top: 0px !important;
 }
-
-
-.col-md-12{
-    padding-top: 30px;
-    padding-left: 30px;
-    padding-right: 30px;
-    padding-bottom: 30px;
-    margin-left: 4px;
+.background{
+    background-image: url(https://images.unsplash.com/photo-1480497490787-505ec076689f?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&w=1000&q=80);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 830px;
+    position: relative;
 }
-  
-.col-lr-1{
-    padding-left: 10px;
-}
-
-p{
-    margin-top: 5px;
-    font-size: 16px;
-}
-
-.navbar{
-    padding-top: 0px;
-    padding-bottom: 0px;
-}
-
-.navbar-brand{
-    background-color: #4aaaaf; 
-    font-family: Georgia, 'Times New Roman', Times, serif; 
-    font-size: 30px;
-   
-}
-
-.display-4{
-    font-family: Georgia, 'Times New Roman', Times, serif; 
-    color:#4aaaaf; 
-    font-size: 40px;
-}
-img{
-    margin-left: 15px;
-}
-
-.mt-4{
-    border-top: 4px solid #4aaaaf !important;
-}
-.copyright{
-    color:darkgrey;
-    font-size: 12px;
+.headShot{
+    height:150px;
+    width:150px;
+    border-radius: 100px;
+    border: 4px solid black;
     position: absolute;
-    bottom: 0;
-} 
+    left: 532px;
+    top: 117px;
+}
+.scrollbar{
+    margin-left: 0px !important;
+    height: 900px;  
+    margin-bottom: 0px !important;
+}
+.name{
+    top: 100px;
+    position: absolute;
+    margin-left: 35px !important;
+    font-size: 39px !important;
+    color:white;
+    
+}
+.pages{
+    top: 300px;
+    position: absolute;
+}
+.icons{
+    bottom: 0px;
+    position: absolute;
+}
+.arrow
+{
+  position: absolute;
+  bottom: -2rem;
+  top: 790px;
+  left: 610px;
+  margin-left:-20px;
+  width: 40px;
+  height: 40px;
+
+  /**
+   * Dark Arrow Down
+   */
+  background-image: url(data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiA/PjxzdmcgaGVpZ2h0PSI1MTIiIGlkPSJzdmcyIiB2ZXJzaW9uPSIxLjEiIHdpZHRoPSI1MTIiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIgeG1sbnM6Y2M9Imh0dHA6Ly9jcmVhdGl2ZWNvbW1vbnMub3JnL25zIyIgeG1sbnM6ZGM9Imh0dHA6Ly9wdXJsLm9yZy9kYy9lbGVtZW50cy8xLjEvIiB4bWxuczppbmtzY2FwZT0iaHR0cDovL3d3dy5pbmtzY2FwZS5vcmcvbmFtZXNwYWNlcy9pbmtzY2FwZSIgeG1sbnM6cmRmPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5LzAyLzIyLXJkZi1zeW50YXgtbnMjIiB4bWxuczpzb2RpcG9kaT0iaHR0cDovL3NvZGlwb2RpLnNvdXJjZWZvcmdlLm5ldC9EVEQvc29kaXBvZGktMC5kdGQiIHhtbG5zOnN2Zz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciPjxkZWZzIGlkPSJkZWZzNCIvPjxnIGlkPSJsYXllcjEiIHRyYW5zZm9ybT0idHJhbnNsYXRlKDAsLTU0MC4zNjIyKSI+PHBhdGggZD0ibSAxMjcuNDA2MjUsNjU3Ljc4MTI1IGMgLTQuOTg1MywwLjA3ODQgLTkuOTEwNzcsMi4xNjMwOCAtMTMuNDM3NSw1LjY4NzUgbCAtNTUsNTUgYyAtMy42MDA1NjUsMy41OTkyNyAtNS42OTY4ODMsOC42NTg5NSAtNS42OTY4ODMsMTMuNzUgMCw1LjA5MTA1IDIuMDk2MzE4LDEwLjE1MDczIDUuNjk2ODgzLDEzLjc1IEwgMjQyLjI1LDkyOS4yNSBjIDMuNTk5MjcsMy42MDA1NiA4LjY1ODk1LDUuNjk2ODggMTMuNzUsNS42OTY4OCA1LjA5MTA1LDAgMTAuMTUwNzMsLTIuMDk2MzIgMTMuNzUsLTUuNjk2ODggTCA0NTMuMDMxMjUsNzQ1Ljk2ODc1IGMgMy42MDA1NiwtMy41OTkyNyA1LjY5Njg4LC04LjY1ODk1IDUuNjk2ODgsLTEzLjc1IDAsLTUuMDkxMDUgLTIuMDk2MzIsLTEwLjE1MDczIC01LjY5Njg4LC0xMy43NSBsIC01NSwtNTUgYyAtMy41OTgxNSwtMy41OTEyNyAtOC42NTA2OCwtNS42ODEyNyAtMTMuNzM0MzgsLTUuNjgxMjcgLTUuMDgzNjksMCAtMTAuMTM2MjIsMi4wOSAtMTMuNzM0MzcsNS42ODEyNyBMIDI1Niw3NzguMDMxMjUgMTQxLjQzNzUsNjYzLjQ2ODc1IGMgLTMuNjY2NzgsLTMuNjY0MjMgLTguODQ4MDEsLTUuNzY0NDIgLTE0LjAzMTI1LC01LjY4NzUgeiIgaWQ9InBhdGgzNzY2LTEiIHN0eWxlPSJmb250LXNpemU6bWVkaXVtO2ZvbnQtc3R5bGU6bm9ybWFsO2ZvbnQtdmFyaWFudDpub3JtYWw7Zm9udC13ZWlnaHQ6bm9ybWFsO2ZvbnQtc3RyZXRjaDpub3JtYWw7dGV4dC1pbmRlbnQ6MDt0ZXh0LWFsaWduOnN0YXJ0O3RleHQtZGVjb3JhdGlvbjpub25lO2xpbmUtaGVpZ2h0Om5vcm1hbDtsZXR0ZXItc3BhY2luZzpub3JtYWw7d29yZC1zcGFjaW5nOm5vcm1hbDt0ZXh0LXRyYW5zZm9ybTpub25lO2RpcmVjdGlvbjpsdHI7YmxvY2stcHJvZ3Jlc3Npb246dGI7d3JpdGluZy1tb2RlOmxyLXRiO3RleHQtYW5jaG9yOnN0YXJ0O2Jhc2VsaW5lLXNoaWZ0OmJhc2VsaW5lO2NvbG9yOiMwMDAwMDA7ZmlsbDojMjIyMjIyO2ZpbGwtb3BhY2l0eToxO2ZpbGwtcnVsZTpub256ZXJvO3N0cm9rZTpub25lO3N0cm9rZS13aWR0aDozOC44ODAwMDEwNzttYXJrZXI6bm9uZTt2aXNpYmlsaXR5OnZpc2libGU7ZGlzcGxheTppbmxpbmU7b3ZlcmZsb3c6dmlzaWJsZTtlbmFibGUtYmFja2dyb3VuZDphY2N1bXVsYXRlO2ZvbnQtZmFtaWx5OlNhbnM7LWlua3NjYXBlLWZvbnQtc3BlY2lmaWNhdGlvbjpTYW5zIi8+PC9nPjwvc3ZnPg==);
+  background-size: contain;
+}
+
+.bounce {
+  animation: bounce 2s infinite;
+}
+
+.aboutMe{
+    color:#4aaaaf;
+    font-family:'Playball', cursive; 
+    font-size: 36px;
+    float: right;
+    position: relative;
+    top: 0px;
+    right: 750px;
+}
+.aboutMe1{
+    padding-left: 0px;
+    padding-right: 0px;
+}
+.paragraph{
+    position: relative;
+    top: 0px;
+    margin-top: 70px;
+}
+
+/* .fullShot{
+    height:350px;
+    width:250px;
+} */
+.sectionPortfolio{
+    color:#4aaaaf;
+    font-family:'Playball', cursive; 
+    font-size: 30px;
+    font-size: 36px;
+}
+.homework{
+    height:350px;
+    width:350px;
+    /* margin: px; */
+    filter: grayscale(100%);
+    color: white;
+    
+}
+.col-md-4{
+    padding: 5px !important;
+}
+.homework:hover{
+   border:1px solid yellow;
+   filter: grayscale(0%);
+   color:black;
+}
+
+.contactMe{
+    color:white;
+    font-family:'Playball', cursive; 
+    font-size: 30px;
+    font-size: 36px;
+    margin-left: 200px;
+    margin-top: 50px;
+}
+.animated{
+    font-family:'Playball', cursive;
+    font-size: 24px;
+}
+.card{
+    border:2px solid grey;
+}
+.contactMeBackground{
+    color: white !important;
+    border-left-width: 0px !important;
+    border-top-width: 0px !important;
+    border-right-width: 0px !important;
+    border-bottom-width: 0px !important;
+    border: 2px solid;
+    filter: grayscale(70%);
+    width: 1140px;
+    /* margin-left: 15px; */
+    height: 670px;
+    /* transition: 1s ease-in-out; */
+
+    background-size: 1200px;
+    background-repeat: no-repeat;
+    background-image: url(https://d2v9y0dukr6mq2.cloudfront.net/video/thumbnail/D8qa-2E/urban-building-lights-background-clouds-moving-over-city-skyline-at-night-sky_bmeye7bms__F0000.png)
+}
+.contactMeBackground:hover{
+    filter: grayscale(0%);
+}
+.unorderedList{
+    list-style-type: square;
+}
+.row {
+    margin: 0!important;
+}
 
 
 
@@ -76,5 +176,121 @@ img{
 
 
 
+#info
+{
+	font-size: 18px;
+	color: white;
+	text-align: center;
+	margin-bottom: 25px;
+}
+
+a{
+	color: #4aaaaf;
+}
+
+.scrollbar
+{
+	margin-left: 30px;
+	float: left;
+	height: 600px;
+	/* width: 65px; */
+	/* background: #F5F5F5; */
+	overflow-y: scroll;
+	margin-bottom: 25px;
+}
+
+.force-overflow
+{
+	min-height: 450px;
+}
+
+i{
+    size:5px;
+}
+
+@media only screen and (max-width:1200px){
+    .aboutMe{
+    right: 650px;
+    left: -640px !important;
+    }
+    /* .headShot{
+        left: 250px;
+    } */
+    /* .arrow{
+        left: 340px;
+
+    } */
+    .aboutMeContainer{
+        height: 550px;
+        width: 900px !important;
+    }
+    .row{
+        margin: 0!important;
+    }
+    .scrollbar{
+        margin-left: 0px !important;
+        height: 900px;  
+        margin-bottom: 0px !important;
+    }
+    /* .container{
+        margin-left: 0 !important;
+    } */
+    .paragraph{
+        width: 700px;
+        margin-top: 40px
+    }
+    p {
+        margin-top: 0% !important;
+        width: 860px;
+
+    }
+}
+
+@media only screen and (max-width:900px){
+    .leftSide{
+       width: 200px;
+    }
+    .background{
+        right: 100px;
+        height: 826px;
+        width: 900px;
+    }
+    .headShot{
+        right: 44px;
+        left: 280px;
+    }
+    .arrow{
+        left: 350px;
+        top: 865px;
+    }
+    .aboutMe1{
+        right: 100px;
+        left: -330px;
+    }
+}
+
+@media only screen and (max-width:800px){
+    .leftSide{
+       width: 200px;
+    }
+    .background{
+        right: 100px;
+        height: 900px;
+        width: 893px;
+    }
+    .headShot{
+        right: 44px;
+        left: 280px;
+    }
+    .arrow{
+        left: 350px;
+        top: 865px;
+    }
+    .aboutMe1{
+        right: 100px;
+        left: -330px;
+    }
+
+}
 
 
