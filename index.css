@@ -88,7 +88,7 @@ html:hover{
     float: right;
     position: relative;
     top: 0px;
-    right: 750px;
+    right: 790px;
 }
 .aboutMe1{
     padding-left: 0px;
@@ -98,6 +98,7 @@ html:hover{
     position: relative;
     top: 0px;
     margin-top: 70px;
+    text-indent: 50px;
 }
 
 /* .fullShot{
@@ -171,6 +172,18 @@ html:hover{
 .cardInfo{
     margin-top: 0% !important;
     margin-bottom: 1px;
+}
+#skills{
+    left: -1070px;
+    top: -60px;
+}
+.bars{
+    padding-top: 25px;
+}
+.progress-bar{
+    font-size: 15px;
+    color:black;
+
 }
 
 
