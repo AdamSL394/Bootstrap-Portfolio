@@ -27,5 +27,5 @@ The following will get up and running locally.
 Author
 Adam Lehrer
 
-
+![Personal Portfolio](assets/images/Portfolio.png)
 
