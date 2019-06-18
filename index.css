@@ -134,7 +134,7 @@ html:hover{
     font-size: 30px;
     font-size: 36px;
     margin-left: 200px;
-    margin-top: 50px;
+    margin-top: 40px;
 }
 .animated{
     font-family:'Playball', cursive;
@@ -154,7 +154,7 @@ html:hover{
     width: 1140px;
     /* margin-left: 15px; */
     height: 670px;
-    /* transition: 1s ease-in-out; */
+    transition: .50s ease-in-out;
 
     background-size: 1200px;
     background-repeat: no-repeat;
@@ -168,6 +168,10 @@ html:hover{
 }
 .row {
     margin: 0!important;
+}
+.cardInfo{
+    margin-top: 0% !important;
+    margin-bottom: 1px;
 }
 
 

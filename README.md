@@ -1,6 +1,6 @@
-# Bootstrap-Portfolio
+# Portfolio
 
-This Repo shows the plug ins and design of a website using <a href="https://getbootstrap.com/">Bootstrap</a>. The plug ins allow us to have minimal CSS & javascript qualities. Bootstrap works off of a grid & row system. This allows user to add in columns and rows make the screen change between devices. 
+This is a my portfolio built from scratch using some representing my work as a web developer.  
 
 ## Perquisites
 
@@ -14,9 +14,12 @@ This well display the new website built with bootstrap copy and pasted code plug
 Adjust the window size to see the content shift as the screen sizes reaches different sizes. <a href="https://getbootstrap.com/docs/4.3/layout/grid/">Grid System </a>
 
 ##Built with
--HTML
--CSS
--Bootstrap
+<ol>
+<li> HTML 
+<li> CSS 
+<li> Media Queries 
+<li> Google Fonts
+</ol>
 
 #Local Development Environment for website Repo
 The following will get up and running locally.
