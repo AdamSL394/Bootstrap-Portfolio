@@ -1,13 +1,13 @@
 # Portfolio
 
-This is a my portfolio built using the tools listed below. My portfolio  representing my work as a web developer, it contains projects using javascript, firebase, Jquery, Moment and more!   
+This is a my portfolio built using the tools listed below. My portfolio  representes my work as a web developer, it contains projects using javascript, firebase, Jquery, Moment and more! You will find links to my Github and Linkedin, and more about me as a professional.
 
 
 
 ## Running Tests 
 
 Open the file in  your browser (preferably google chrome) to test the code. 
-This well display the website built! 
+This will display the website built! 
 
 ## Built with:
 <ol>
