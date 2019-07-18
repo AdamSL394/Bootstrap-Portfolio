@@ -4,11 +4,11 @@
 <head>
     <!-- Required meta tags -->
     <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.2/animate.min.css">
-    <link rel="stylesheet" href="animate.min.css">
+    <!-- <link rel="stylesheet" href="animate.min.css"> -->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
-    integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+        integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.0/jquery.min.js"></script>
     <link href="https://fonts.googleapis.com/css?family=Playball&display=swap" rel="stylesheet">
     <meta name="viewport" content="width=device-width, initial-scale=1">
@@ -18,119 +18,140 @@
         integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
     <link rel="stylesheet" href="index.css" type="text/css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/uikit/3.1.5/css/uikit.min.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
 
-<!-- UIkit JS -->
+    <!-- Compiled and minified JavaScript -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+
+    <!-- UIkit JS -->
 
     <title>About Me</title>
 </head>
 
 <body>
-    <div class="row">
-        <div class="leftSide">
-            <h1 class="name animated  zoomIn delay-1s">Adam Lehrer</h1>
-            <div class="icons" style="color:black">
-                <a href="https://www.linkedin.com/in/adam-lehrer-968731b5/" target="_blank">
-                    <i class="fab fa-linkedin" style="font-size: 1em"></i>
-                </a>
-                <a href="https://github.com/AdamSL394" target="_blank">
-                    <i class="fab fa-github-square" style="font-size: 1em; color:white;"></i>
-                </a>
-            </div>
-   
+    <!-- Left Coloumn   -->
+    <div class="row no-gutters">
+        <div class="col-3 col-sm-3 col-lg-2 col-xl-2 ">
+            <div class="col-3 col-sm-4 col-lg-2 col-xl-2 sidenav sidenav-fixed">
+                <!-- <img id="home-logo" src="assets/images/login_logo.png" width="50px"> -->
+                <div class="" style="color:black">
+                    <a href="https://www.linkedin.com/in/adam-lehrer-968731b5/" target="_blank">
+                        <i class="fab fa-linkedin" style="font-size: 2em"></i>
+                    </a>
+                    <a href="https://github.com/AdamSL394" target="_blank">
+                        <i class="fab fa-github-square" style="font-size: 2em; color:black;"></i>
+                    </a>
 
-        <div class="pages">
-            <ul>
-                <li>
-                    <a class="animated  zoomIn delay-1s" href="#me">About Me </a>
-                </li>
-                <li>
-                    <a class="animated  zoomIn delay-1s" href="#port">Portfolio </a>
-                </li>
-                <li>
-                    <a class=" animated  zoomIn delay-1s" href="#ctact">Contact</a>
-                </li>
-                <!-- <li >
-                        <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true"></a>
-                    </li> -->
-            </ul>
+                    <!-- Fast click links -->
+                    <ul>
+                        <li>
+                            <a class="animated  zoomIn delay-1s" href="#me">About Me</a>
+                        </li>
+                        <li>
+                            <a class="animated  zoomIn delay-1s" href="#port">Portfolio </a>
+                        </li>
+                        <li>
+                            <a class=" animated  zoomIn delay-1s" href="#ctact">Contact</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
         </div>
 
-
-    </div>
-
-
-    <div class="scrollbar" id="style-default" style="height: 900px;">
-        <div class="force-overflow">
-            <div class="container mt-5">
-                <div class="background">
-                    <div>
-                        <img src="imgs/LinkedInProfile.jpeg" class="headShot img-fluid">
-                    </div>
-                    <a href="#me">
-                        <div class="arrow bounce"></div>
-                    </a>
+        <div class="col-9 col-sm-9 col-lg-10 col-xl-10" style="padding-left: 0px;">
+            <div class="background">
+                <div class="example1">
+                    <h3>Adam Lehrer</h3>
                 </div>
-                <div class="aboutMeContainter" style="height: 550px;" >
-                    <div class="row">
-                        <div class="col-md-2 aboutMe1">
-                            <img src="imgs/LinkedInProfile.jpeg" class="fullShot img-fluid">
-                        </div>
 
-                        <div class="col-md-10">
-                        <h1 class="aboutMe" id="me">About Me</h1>
+                <div id="faceShot">
+                    <img src="imgs/LinkedInProfile.jpeg" class="headShot img-fluid">
+                </div>
 
-
-                        <div class="paragraph mb-5" >   A passion for web development and design. A project coordinator
-                            with a history managing multiple projects. 3 years of experience sifting through data
-                            to create functionality and fix errors. I remain calm and very organized through the taks.  I am excited and
-                            driven by the technology that we depend on and consume. With knowledge in JavaScript, CSS,
-                            HTML,Firebase & more I am looking to expand my skills and creations as a full stack
-                            developer. Utilizing my skills and knowledge to turn logic and functionality into a sleek
-                            design. Previously working as an assistnat buyer for the Pottery Barn Kids division within William Sonoma,and holding a degree Business Administartion.</div>
-                        </div>
-
-                        <p>I approches web development and coding
-                            with an eager attitude and a passion to learn! Looking to expand his skills in tech or tech sales,</p>
-                           
-                    </div>
+                <a href="#me">
+                    <div class="arrow bounce"></div>
+                </a>
+            </div>
+            <div class="aboutMeContainter" style="height: 550px;">
+                <!-- <div class="row"> -->
+                <div class="col-4 col-sm-4 col-md-4  col-lg-2 col-xl-2 aboutMe1" style="padding: 1px !important">
+                    <img src="imgs/LinkedInProfile.jpeg" class="fullShot img-fluid">
+                </div>
 
 
-
-                    <p>  Nine years experience buying and selling
-                        specialized consumer products. Previously  working for a $3M superstore. I'm a team builder, communicating product knowledge and trends to
-                        the sales organization and upper management.</p>
+                <h1 id="me" class="about-me">About Me</h1>
 
 
+                <div class=" col-12 col-sm-12 col-md-12  col-lg-12 col-xl-12 paragraph mb-5"> A passion for web
+                    development and design. A project
+                    coordinator
+                    with a history managing multiple projects. 3 years of experience sifting through
+                    data
+                    to create functionality and fix errors. I remain calm and very organized through the
+                    taks. I am excited and
+                    driven by the technology that we depend on and consume. With knowledge in
+                    JavaScript, CSS,
+                    HTML,Firebase & more I am looking to expand my skills and creations as a full stack
+                    developer. Utilizing my skills and knowledge to turn logic and functionality into a
+                    sleek
+                    design. Previously working as an assistnat buyer for the Pottery Barn Kids division
+                    within William Sonoma,and holding a degree Business Administartion.
+                </div>
 
-                    <h1 class="aboutMe" id="skills">
-                        Skills 
-                    </h1>
-                    <div class="bars">
+                <p class=" col-12 col-sm-12 col-md-12  col-lg-12 col-xl-12 mt-5">I approches web development and coding
+                    with an eager attitude and a passion to learn! Looking to expand his skills in tech or
+                    tech sales,</p>
+
+                <!-- </div> -->
+
+
+
+                <p class=" col-12 col-sm-12 col-md-12  col-lg-12 col-xl-12 mb-5"> Nine years experience buying and
+                    selling
+                    specialized consumer products. Previously working for a $3M superstore. I'm a team builder,
+                    communicating product knowledge and trends to
+                    the sales organization and upper management.</p>
+
+
+
+                <h1>
+                    Skills
+                </h1>
+                <div class="bars">
                     <div class="progress">
-                        <div class="progress-bar progress-bar-striped" role="progressbar" style="width: 70%" aria-valuenow="70" aria-valuemin="0" aria-valuemax="70">HTML</div>
-                      </div>
-                      <div class="progress">
-                        <div class="progress-bar progress-bar-striped bg-success" role="progressbar" style="width: 65%" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100">CSS</div>
-                      </div>
-                      <div class="progress">
-                        <div class="progress-bar progress-bar-striped bg-info" role="progressbar" style="width: 50%" aria-valuenow="50" aria-valuemin="0" aria-valuemax="100">Javascript</div>
-                      </div>
-                      <div class="progress">
-                        <div class="progress-bar progress-bar-striped bg-warning" role="progressbar" style="width: 25%" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100">Firebase Storage</div>
-                      </div>
-                      <div class="progress">
-                        <div class="progress-bar progress-bar-striped bg-danger" role="progressbar" style="width: 65%" aria-valuenow="100" aria-valuemin="0" aria-valuemax="100">API Calls</div>
-                      </div>
+                        <div class="progress-bar progress-bar-striped" role="progressbar" style="width: 70%"
+                            aria-valuenow="70" aria-valuemin="0" aria-valuemax="70">HTML</div>
                     </div>
-                    
-                
+                    <div class="progress">
+                        <div class="progress-bar progress-bar-striped bg-success" role="progressbar" style="width: 65%"
+                            aria-valuenow="25" aria-valuemin="0" aria-valuemax="100">CSS
+                        </div>
+                    </div>
+                    <div class="progress">
+                        <div class="progress-bar progress-bar-striped bg-info" role="progressbar" style="width: 50%"
+                            aria-valuenow="50" aria-valuemin="0" aria-valuemax="100">
+                            Javascript</div>
+                    </div>
+                    <div class="progress">
+                        <div class="progress-bar progress-bar-striped bg-warning" role="progressbar" style="width: 25%"
+                            aria-valuenow="75" aria-valuemin="0" aria-valuemax="100">Firebase
+                            Storage</div>
+                    </div>
+                    <div class="progress">
+                        <div class="progress-bar progress-bar-striped bg-danger" role="progressbar" style="width: 65%"
+                            aria-valuenow="100" aria-valuemin="0" aria-valuemax="100">API
+                            Calls</div>
+                    </div>
+                </div>
+
+
 
                 <hr>
 
 
                 <h1 class="sectionPortfolio" id="port">Portfolio</h1>
                 <div class="row">
-                    <div class=col-md-4>
+                    <div class="col-12 col-sm-12 col-md-6  col-lg-6 col-xl-4">
                         <span class="card homework">
                             <a href="https://adamsl394.github.io/Train-Scheduler/" target="_blank">
                                 <img src="imgs/subtle_grunge/CrazyTrain.png" class="card-img-top  img-fluid"
@@ -139,7 +160,7 @@
                             <div class="card-body">
                                 <p class="card-text">
                                     <h6 class="cardInfo">Crazy Train,</h6>
-                                    <ul> 
+                                    <ul>
                                         <li> Calculates the time your train will arrives in real time!</li>
                                     </ul>
                                 </p>
@@ -147,7 +168,7 @@
                         </span>
                     </div>
 
-                    <div class="col-md-4">
+                    <div class="col-12 col-sm-12 col-md-6  col-lg-6 col-xl-4">
                         <div class="card homework">
                             <a href="https://adamsl394.github.io/LotteryGame/" target="_blank">
                                 <img src="imgs/subtle_grunge/Lottery-Game.png" class="card-img-top img-fluid"
@@ -156,16 +177,17 @@
                             <div class="card-body">
                                 <p class="card-text">
                                     <h6 class="cardInfo">Lottery Game</h6>
-                                    <ul style="margin-top: 0px;"><li>See if you can guess the right randomly generated number and
-                                    equal
-                                    the
-                                    score!</li>
+                                    <ul style="margin-top: 0px;">
+                                        <li>See if you can guess the right randomly generated number and
+                                            equal
+                                            the
+                                            score!</li>
                                     </ul>
                                 </p>
                             </div>
                         </div>
                     </div>
-                    <div class="col-md-4">
+                    <div class="col-12 col-sm-12 col-md-6 col-lg-6 col-xl-4">
                         <div class="card homework">
                             <a href="https://adamsl394.github.io/Psychic-Game/" target="_blank">
                                 <img src="imgs/subtle_grunge/Psych game.png" class="card-img-top img-fluid"
@@ -184,7 +206,7 @@
                 </div>
 
                 <div class="row">
-                    <div class="col-md-4">
+                    <div class="col-12 col-sm-12 col-md-6  col-lg-6 col-xl-4">
                         <div class="card homework">
                             <a href="https://adamsl394.github.io/TriviaGame/" target="_blank">
                                 <img src="imgs/subtle_grunge/Trivia_Game.png" class="card-img-top img-fluid"
@@ -194,13 +216,14 @@
                                 <p class="card-text">
                                     <h6 class="cardInfo">Trivia-Game</h6>
                                     <ul>
-                                        <li>How much do you know? Can you answer the random facts correctly?</li>
+                                        <li>How much do you know? Can you answer the random facts correctly?
+                                        </li>
                                     </ul>
                                 </p>
                             </div>
                         </div>
                     </div>
-                    <div class="col-md-4">
+                    <div class="col-12 col-sm-12 col-md-6  col-lg-6 col-xl-4">
                         <div class="card homework">
                             <a href="https://adamsl394.github.io/GetGiphywitit/" target="_blank">
                                 <img src="imgs/subtle_grunge/background.png" class="card-img-top img-fluid"
@@ -210,14 +233,15 @@
                                 <p class="card-text">
                                     <h6 class="cardInfo">Get Giphy With It</h6>
                                     <ul>
-                                        <li>Find Gifs on any of your favorite topics from the click of a button.</li>
+                                        <li>Find Gifs on any of your favorite topics from the click of a button.
+                                        </li>
                                     </ul>
                                 </p>
                             </div>
                         </div>
                     </div>
 
-                    <div class="col-md-4">
+                    <div class="col-12 col-sm-12 col-md-6  col-lg-6 col-xl-4">
                         <div class="card homework">
                             <a href="https://meghabprasad.github.io/finfo/" target="_blank">
                                 <img src="imgs/subtle_grunge/Finfo.png" class="card-img-top img-fluid"
@@ -227,7 +251,8 @@
                                 <p class="card-text">
                                     <h6 class="cardInfo">Finfo</h6>
                                     <ul style="margin-top: 0px;">
-                                        <li>Sign up for to see & save stock information, check flight prices & compare
+                                        <li>Sign up for to see & save stock information, check flight prices &
+                                            compare
                                             the dollar to foreign currecies </li>
                                     </ul>
                                 </p>
@@ -251,21 +276,18 @@
                     </div>
                 </div>
             </div>
-        </div>
-    </div>
+            <script src="https://cdnjs.cloudflare.com/ajax/libs/uikit/3.1.5/js/uikit.min.js"></script>
+            <script src="https://cdnjs.cloudflare.com/ajax/libs/uikit/3.1.5/js/uikit-icons.min.js"></script>
 
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/uikit/3.1.5/js/uikit.min.js"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/uikit/3.1.5/js/uikit-icons.min.js"></script>
-    
-    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
-        integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
-        crossorigin="anonymous"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
-        integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
-        crossorigin="anonymous"></script>
-    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
-        integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
-        crossorigin="anonymous"></script>
+            <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+                integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+                crossorigin="anonymous"></script>
+            <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+                integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
+                crossorigin="anonymous"></script>
+            <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+                integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
+                crossorigin="anonymous"></script>
 </body>
 
 </html>
