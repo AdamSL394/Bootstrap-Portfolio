@@ -54,20 +54,42 @@
 
 .card{
     border:2px solid grey;
+    /* transform: translate(-50%,-50%);
+    transform-style: preserve-3d; */
+    /* perspective: 600px; */
+    transition: .5s;
+}
+.card .front{
+    top: 0;
+    backface-visibility: hidden;
+    transform: rotateX(0deg);
+}
+.card .back{
+    backface-visibility: hidden;
+    transform: rotateX(0deg);
+    position: absolute;
 }
 .homework{
     height:350px;
     width:350px;
     filter: grayscale(100%);
     color: white;
-    transform: rotateX(0deg);
- 
-    
 }
-.homework:hover{
+.front:hover{
     transform: rotateX(-180deg);
     transition: 0.5s;
-   }
+}
+.no-gutters {
+    margin-right: 0;
+    margin-left: 0;
+}
+
+
+
+
+
+
+
 
 .video{
     background-color: white !important;
@@ -199,3 +221,51 @@ p{
      align-content: center;
     }
   }
+
+  @media only screen and (max-width: 992px) {
+    .centerPortfolioSection {
+
+    }
+  }
+
+  .stage{
+	overflow: hidden;
+	height: 300px;
+	position: relative;
+  }
+	.picture{
+		position: absolute;
+		width: 100%;
+		height: 100%;
+		will-change: transform;
+    	transform: translateZ(0);
+    	transform: translate3d(0,0,0);
+    	perspective: 1000; 
+		backface-visibility: hidden;
+    }
+		.picture img{
+			object-fit: cover;
+			object-position: center 60%;
+			width: 100%;
+			height: 100%;
+    		transform: translateZ(0);
+    		transform: translate3d(0,0,0);
+    		perspective: 1000; 
+			backface-visibility: hidden;
+		}
+
+	.building{
+		position: absolute;
+		bottom: -50px;
+		left: 0;
+
+		will-change: transform;
+		display: flex;
+		width: 100%;
+		align-items: flex-start;
+    }
+		.building img{
+			width: 33%;
+			height: auto;
+		}
+	
