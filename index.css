@@ -118,10 +118,10 @@ i{
 
 /* Front Page Name Animation */
 /* Line expand from center */
-#line{ color: black;margin:0;text-transform:uppercase; align-content: center}
+#line{ color: black; margin-left:10%; margin-right:10% ;text-transform:uppercase; align-content: center}
 
 #line:after {
-  /* display:inline-flex; */
+  display:block;
   text-align: center;
   content: '';
   border-bottom: solid 3px black;  
@@ -173,5 +173,11 @@ i{
     height:100px;
     width:100px;
 }
-
-@media 
+#iconsInContact{
+    bottom:0%;
+}
+p{
+    font-family:sans-serif;
+    font-size: 20px;
+}
+/* @media  */
