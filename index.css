@@ -16,6 +16,7 @@
 .about-me{
     font-family:'Playball', cursive; 
     font-size: 42px;
+    margin-left: 2px;
 }
 .skillsHeader{
     font-family:'Playball', cursive; 
@@ -29,14 +30,9 @@
 .sectionPortfolio{
     font-family:'Playball', cursive; 
     font-size: 42px;
+    margin-left: 2px;
 }
-.homework{
-    height:350px;
-    width:350px;
-    filter: grayscale(100%);
-    color: white;
-    
-}
+
 .col-md-4{
     padding: 5px !important;
 }
@@ -47,6 +43,7 @@
 }
 
 .contactMe{
+    margin-left: 2px;
     color:black;
     font-family:'Playball', cursive; 
     font-size: 39px;
@@ -54,9 +51,23 @@
 }
 
 
+
 .card{
     border:2px solid grey;
 }
+.homework{
+    height:350px;
+    width:350px;
+    filter: grayscale(100%);
+    color: white;
+    transform: rotateX(0deg);
+ 
+    
+}
+.homework:hover{
+    transform: rotateX(-180deg);
+    transition: 0.5s;
+   }
 
 .video{
     background-color: white !important;
@@ -64,6 +75,8 @@
 
 .unorderedList{
     list-style-type: square;
+    font-family: sans-serif;
+    font-size: 20px;
 }
 .row {
     margin: 0!important;
@@ -174,7 +187,7 @@ i{
     width:100px;
 }
 #iconsInContact{
-    bottom:0%;
+  bottom: auto;
 }
 p{
     font-family:sans-serif;
