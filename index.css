@@ -268,4 +268,10 @@ p{
 			width: 33%;
 			height: auto;
 		}
-	
+    
+#break{
+    position: fixed;
+}
+#city{
+    position: absolute;
+}
