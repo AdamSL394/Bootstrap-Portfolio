@@ -277,7 +277,13 @@ p{
 }
 
 
-  
+.middle-container{
+  height: 60%;
+  width: 95%;
+  border: 2px solid red;
+  justify-content: center;
+  position: relative;
+}
   
 
   
@@ -294,20 +300,21 @@ p{
     background: #333;
   } */
   .middle{
-    position: relative;
-    top: 35%;
-    left: 25%;
+    position: absolute;
+    top: 50%;
+    left: 12.5%;
     transform: translate(-50%,-50%);
   }
    .cards{
     cursor: pointer;
     width: 25%;
-    height: 50%;
+    height: 100.1%;
     border-left: 2px solid lightgray;
     border-top: 2px solid lightgray;
     border-bottom: 2px solid lightgray;
     border-radius: 2px 3px 5px;
     border-right: 2px solid lightgray;
+    position: absolute;
   }
   
   .cardFront,.back{
@@ -331,15 +338,12 @@ p{
   .back{
     background: #f1f1f1;
     transform: perspective(600px) rotateY(180deg);
-    /* justify-content: center; */
-    /* position: relative; */
+  
   }
   
   .back-content{
-    /* position: absolute; */
     color: #2c3e50;
     text-align: center;
-    /* width: 100%; */
   }
 
   .sm{

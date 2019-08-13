@@ -62,8 +62,8 @@
         <div class="col-12 col-sm-12 col-md-9 col-lg-10 col-xl-10" style="padding-left: 0px;">
             <div class="background" style="height:100vh;">
                 <!-- <div id="faceShot"> -->
-                    <!-- <video src="imgs/smoke.mp4" autoplay muted class="video" type="video/mp4"> joihjh</video> -->
-                    <!-- <img src="imgs/LinkedInProfile.jpeg" class="headShot img-fluid" style="margin-top: 5%;">
+                <!-- <video src="imgs/smoke.mp4" autoplay muted class="video" type="video/mp4"> joihjh</video> -->
+                <!-- <img src="imgs/LinkedInProfile.jpeg" class="headShot img-fluid" style="margin-top: 5%;">
                 </div> -->
 
 
@@ -87,7 +87,7 @@
                 </div>
                 <div id="line"></div>
 
-                <!-- <containter class="middle-container mt-5 ml-5">
+                <!--                 
                     <div class="position move">
 
                     </div>
@@ -96,13 +96,34 @@
                     </div>
                     <span class="move3  outline">
 
-                    </span>
-                </containter> -->
+                    </span> -->
+
 
 
 
                 <!---Card image-->
-                <div class="cards middle">
+                <div class="middle-container mt-5 ml-5">
+
+                    <div class="cards middle">
+                        <div class="cardFront">
+                            <img id="cardImage" src="about-me.png" alt="">
+                        </div>
+                        <div class="back">
+                            <div class="back-content">
+                                <h5></h5>
+                                <span>About Me</span>
+                                <div class="sm">
+                                    <a href="#"><i class="fab fa-facebook-f"></i></a>
+                                    <a href="#"><i class="fab fa-twitter"></i></a>
+                                    <a href="#"><i class="fab fa-youtube"></i></a>
+                                    <a href="#"><i class="fab fa-instagram"></i></a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- <div class="cards middle">
                     <div class="cardFront">
                       <img id="cardImage" src="about-me.png" alt="">
                     </div>
@@ -118,7 +139,7 @@
                         </div>
                       </div>
                     </div>
-                  </div>
+                  </div> -->
 
 
                 <!-- <picture >
@@ -416,14 +437,14 @@
 
         $("#line").addClass("underline")
 
-        $(".move").mouseenter(function () { 
+        $(".move").mouseenter(function () {
             // $(this).addClass('show')
             $(this).toggleClass('show')
             $(".move2").addClass("unhide")
-            
+
         });
 
-        $(".move").mouseleave(function () { 
+        $(".move").mouseleave(function () {
             $(this).toggleClass('show')
             $(".move2").toggleClass("unhide")
             // .stop()
