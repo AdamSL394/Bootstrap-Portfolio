@@ -275,3 +275,84 @@ p{
 #city{
     position: absolute;
 }
+
+
+  
+  
+
+  
+
+ /*card image flip*/
+
+/* *{
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    font-family: "montserrat";
+  } */
+  /* body{
+    background: #333;
+  } */
+  .middle{
+    position: absolute;
+    top: 17%;
+    left: 20%;
+    transform: translate(-50%,-50%);
+  }
+   .cards{
+    cursor: pointer;
+    width: 15%;
+    height: 10%;
+
+  }
+  
+  .cardFront,.back{
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+    backface-visibility: hidden;
+    position: absolute;
+    transition: transform .6s linear;
+  }
+  
+  /* .cardFront #cardImage{
+    height: 100%;
+  } */
+  /*
+  .cardFront{
+    transform: perspective(600px) rotateY(0deg);
+  }
+  .back{
+    background: #f1f1f1;
+    transform: perspective(600px) rotateY(180deg);
+  }
+  .back-content{
+    color: #2c3e50;
+    text-align: center;
+    width: 100%;
+  }
+  .sm{
+    margin: 20px 0;
+  }
+  .sm a{
+    display: inline-flex;
+    width: 40px;
+    height: 40px;
+    justify-content: center;
+    align-items: center;
+    color: #2c3e50;
+    font-size: 18px;
+    transition: 0.4s;
+    border-radius: 50%
+  }
+  .sm a:hover{
+    background: #2c3e50;
+    color: white;
+  }
+  .card:hover > .cardFront{
+    transform: perspective(600px) rotateY(-180deg);
+  }
+  .card:hover > .back{
+    transform: perspective(600px) rotateY(0deg);
+  }
+   */

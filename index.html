@@ -67,6 +67,8 @@
                 </div>
 
 
+
+
                 <div class="frontPageName" style="padding-top: 3%;">
 
                     <span><b style="font-size: 52px; line-height:4px;">A</b></span>
@@ -85,17 +87,44 @@
                 </div>
                 <div id="line"></div>
 
+                <!-- <containter class="middle-container mt-5 ml-5">
+                    <div class="position move">
+
+                    </div>
+                    <div class="position move2  outline">
+
+                    </div>
+                    <span class="move3  outline">
+
+                    </span>
+                </containter> -->
 
 
 
-                <section class="stage">
+                <!---Card image-->
+                <div class="cards middle">
+                    <div class="cardFront">
+                      <img id="cardImage" src="frontimg.jpg" alt="">
+                    </div>
+                    <div class="back">
+                      <div class="back-content middle">
+                        <h5></h5>
+                        <span>About Me</span>
+                        <div class="sm">
+                          <a href="#"><i class="fab fa-facebook-f"></i></a>
+                          <a href="#"><i class="fab fa-twitter"></i></a>
+                          <a href="#"><i class="fab fa-youtube"></i></a>
+                          <a href="#"><i class="fab fa-instagram"></i></a>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
 
-                    <picture>
-                        <img src="./imgs/city.png" alt="" style=" margin-top: 10px;
+
+                <!-- <picture >
+                        <img  class="slide-rotate-ver-left" src="./imgs/city.png" alt="" style=" margin-top: 10px;
                         opacity:  0.5;" id="city">
-                    </picture>
-
-                </section>
+                    </picture> -->
 
 
 
@@ -112,18 +141,26 @@
                         <img src="imgs/LinkedInProfile.jpeg"
                             class="fullShot img-fluid col-3 col-sm-3 col-md-3 col-lg-2 col-xl-2" id="me" style="padding-right: 0px;
                             padding-left: 0px;">
-                        <div class="col-12 col-sm-12 col-md-12 col-lg-10 col-xl-10 " style="float: right; padding-top: 20px;">
+                        <div class="col-12 col-sm-12 col-md-12 col-lg-10 col-xl-10 "
+                            style="float: right; padding-top: 20px;">
                             <h1 class="about-me" style="margin-top:1px;">About Me</h1>
                             <span class="paragraph mb-5" style="margin-top:30px;">
-                                <p> Designing and creating have always been a passion leading me to my current experience graduating from UC Berkeley's full-stack software engineering course in web development and design. As a previous inventory analyst and buyer I utilize my skills of managing multiple projects & sifting through data to fix errors and create functionality. 
-                                        
+                                <p> Designing and creating have always been a passion leading me to my current
+                                    experience graduating from UC Berkeley's full-stack software engineering course in
+                                    web development and design. As a previous inventory analyst and buyer I utilize my
+                                    skills of managing multiple projects & sifting through data to fix errors and create
+                                    functionality.
+
                                 </p>
                             </span>
                         </div>
                     </div>
 
                     <row>
-                        <p class=" col-12 col-sm-12 col-md-12  col-lg-12 col-xl-12 mt-5" style="margin-top:25px !important;">I am excited and driven by the technology that we depend on and consume. With knowledge in JavaScript, CSS, HTML,Firebase & more I am looking to expand my skills and creations as a full stack developer.
+                        <p class=" col-12 col-sm-12 col-md-12  col-lg-12 col-xl-12 mt-5"
+                            style="margin-top:25px !important;">I am excited and driven by the technology that we depend
+                            on and consume. With knowledge in JavaScript, CSS, HTML,Firebase & more I am looking to
+                            expand my skills and creations as a full stack developer.
                         </p>
                     </row>
 
@@ -131,8 +168,11 @@
 
 
 
-                    <p class=" col-12 col-sm-12 col-md-12  col-lg-12 col-xl-12 mb-5 " style="padding-left: 15px;">  Utilizing my skills and knowledge to turn logic and functionality into a sleek design. Previously working as an assistant buyer for the Pottery Barn Kids division within William Sonoma, and holding a Business degree from San Francisco State University .
-                            I approach web development and coding with an eager attitude and a passion to learn!</p>
+                    <p class=" col-12 col-sm-12 col-md-12  col-lg-12 col-xl-12 mb-5 " style="padding-left: 15px;">
+                        Utilizing my skills and knowledge to turn logic and functionality into a sleek design.
+                        Previously working as an assistant buyer for the Pottery Barn Kids division within William
+                        Sonoma, and holding a Business degree from San Francisco State University .
+                        I approach web development and coding with an eager attitude and a passion to learn!</p>
 
 
 
@@ -293,7 +333,8 @@
                                 <p class="card-text">
                                     <h6 class="cardInfo">Bark!</h6>
                                     <ul style="margin-top: 0px;">
-                                        <li> Bark! Voice what's going on around you on our location based social platform.</li>
+                                        <li> Bark! Voice what's going on around you on our location based social
+                                            platform.</li>
                                     </ul>
                                 </p>
                             </div>
@@ -325,7 +366,7 @@
                                 <p class="card-text">
                                     <h6 class="cardInfo">Friend Finder</h6>
                                     <ul style="margin-top: 0px;">
-                                        <li>Take our survey to compare who has a personailty like yours!  </li>
+                                        <li>Take our survey to compare who has a personailty like yours! </li>
                                     </ul>
                                 </p>
                             </div>
@@ -375,7 +416,18 @@
 
         $("#line").addClass("underline")
 
+        $(".move").mouseenter(function () { 
+            // $(this).addClass('show')
+            $(this).toggleClass('show')
+            $(".move2").addClass("unhide")
+            
+        });
 
+        $(".move").mouseleave(function () { 
+            $(this).toggleClass('show')
+            $(".move2").toggleClass("unhide")
+            // .stop()
+        });
     </script>
 </body>
 
