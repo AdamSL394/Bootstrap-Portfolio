@@ -280,10 +280,13 @@ p{
  /*card image flip*/
 
 .middle-container{
+  margin-top: 7%;
   height: 60%;
   width: 95%;
-  border: 2px solid red;
+  /* border: 2px solid red; */
   justify-content: center;
+  align-content: center;
+  text-align: center;
   position: relative;
 }
   
@@ -307,8 +310,6 @@ p{
     border-left: 2px solid lightgray;
     border-top: 2px solid lightgray;
     border-bottom: 2px solid lightgray;
-    border-radius: 2px 3px 5px;
-    border-right: 2px solid lightgray;
     position: absolute;
   }
   
@@ -373,13 +374,7 @@ p{
 
   /* card #2 */
 
-  .middle-container{
-    height: 60%;
-    width: 95%;
-    border: 2px solid red;
-    justify-content: center;
-    position: relative;
-  }
+  
     
     .middle2{
       position: relative;
@@ -387,18 +382,16 @@ p{
       left:37.3%;
       height: 100.1%;
       width: 25%;
-      border: 2px solid red;
+      /* border: 2px solid red; */
       transform: translate(-50%,-50%);
     }
      .cards2{
       cursor: pointer;
       width: 25%;
       height: 100.1%;
-      border-left: 2px solid red;
-      border-top: 2px solid red;
-      border-bottom: 2px solid red;
-      border-radius: 2px 3px 5px;
-      border-right: 2px solid red;
+      border-left: 2px solid lightgray;
+      border-top: 2px solid lightgray;
+      border-bottom: 2px solid lightgray;
       /* position: absolute; */
     }
     
@@ -427,7 +420,8 @@ p{
     }
     
     .back-content2{
-      color: #2c3e50;
+      background-image: "imgs/projects.png";
+
       text-align: center;
     }
   
@@ -463,13 +457,7 @@ p{
     /* card 3*/
 
 
-  .middle-container{
-    height: 60%;
-    width: 95%;
-    border: 2px solid red;
-    justify-content: center;
-    position: relative;
-  }
+  
     
     .middle3{
       position: relative;
@@ -477,18 +465,15 @@ p{
       left:62.3%;
       height: 100.1%;
       width: 25%;
-      border: 2px solid red;
       transform: translate(-50%,-50%);
     }
      .cards3{
       cursor: pointer;
       width: 25%;
       height: 100.1%;
-      border-left: 2px solid red;
-      border-top: 2px solid red;
-      border-bottom: 2px solid red;
-      border-radius: 2px 3px 5px;
-      border-right: 2px solid red;
+      border-left: 2px solid lightgray;
+      border-top: 2px solid lightgray;
+      border-bottom: 2px solid lightgray;
       position: absolute;
     }
     
@@ -554,7 +539,7 @@ p{
     .middle-container{
       height: 60%;
       width: 95%;
-      border: 2px solid red;
+      /* border: 2px solid red; */
       justify-content: center;
       position: relative;
     }
@@ -565,18 +550,17 @@ p{
         left: 87.3%;
         height: 100.1%;
         width: 25%;
-        border: 2px solid red;
+        /* border: 2px solid red; */
         transform: translate(-50%,-50%);
       }
        .cards4{
         cursor: pointer;
         width: 25%;
         height: 100.1%;
-        border-left: 2px solid red;
-        border-top: 2px solid red;
-        border-bottom: 2px solid red;
-        border-radius: 2px 3px 5px;
-        border-right: 2px solid red;
+        border-left: 2px solid lightgray;
+        border-top: 2px solid lightgray;
+        border-bottom: 2px solid lightgray;
+        border-right: 2px solid lightgray;
         position: absolute;
       }
       
