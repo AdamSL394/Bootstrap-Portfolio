@@ -307,6 +307,7 @@ p{
     border-top: 2px solid lightgray;
     border-bottom: 2px solid lightgray;
     border-radius: 2px 3px 5px;
+    border-right: 2px solid lightgray;
   }
   
   .cardFront,.back{
@@ -330,9 +331,12 @@ p{
   .back{
     background: #f1f1f1;
     transform: perspective(600px) rotateY(180deg);
+    /* justify-content: center; */
+    /* position: relative; */
   }
   
   .back-content{
+    /* position: absolute; */
     color: #2c3e50;
     text-align: center;
     /* width: 100%; */
