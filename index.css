@@ -2,7 +2,7 @@
     position: fixed;   
     font-family:'Playball', cursive; 
     font-size: 30px;
-    color:black;
+    color:white;
 }
 .background{
     height: 830px;
@@ -214,6 +214,7 @@ i{
 p{
     font-family:sans-serif;
     font-size: 20px;
+   
 }
 @media only screen and (max-width: 768px) {
     .sidenav {
@@ -308,7 +309,7 @@ p{
     cursor: pointer;
     width: 25%;
     height: 100.1%;
-    border-left: 2px solid lightgray;
+    
     border-top: 2px solid lightgray;
     border-bottom: 2px solid lightgray;
     position: absolute;
@@ -407,7 +408,7 @@ p{
     
     .cardFront2 #cardImage2{
       height: auto;
-      opacity: 0.4;
+      /* opacity: 0.4; */
     }
     
     .cardFront2{
@@ -422,7 +423,6 @@ p{
     
     .back-content2{
       background-image: "imgs/projects.png";
-
       text-align: center;
     }
   
@@ -561,7 +561,7 @@ p{
         border-left: 2px solid lightgray;
         border-top: 2px solid lightgray;
         border-bottom: 2px solid lightgray;
-        border-right: 2px solid lightgray;
+        
         position: absolute;
       }
       
