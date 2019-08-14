@@ -628,6 +628,33 @@ p{
         font-size: 20px;
       }
 
-     
+     #emailArea{
+      border: 2px solid lightblue;
+      width: 80%;
+      margin-left: 15px;
+     }
+
+     #subjectArea{
+      border: 2px solid lightblue;
+      width: 80%;
+      margin-left: 15px;
+     }
+
+     #messageArea{
+      border: 2px solid lightblue;
+      width: 95%;
+      height: 200px;
+      margin-left: 15px;
+     }
+
+     #submitBtn{
+      border-radius: 8px !important;
+      width: 80px; 
+      background-color: rgb(8, 8, 4); 
+      color: white; 
+      height: 35px;
+       margin-left: 15px; 
+      text-align: middle !important; 
+     }
 
      
