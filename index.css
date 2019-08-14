@@ -52,6 +52,7 @@
 
 
 
+
 .card{
     border:2px solid grey;
     /* transform: translate(-50%,-50%);
@@ -326,7 +327,6 @@ p{
   
   .cardFront #cardImage{
     height: auto;
-    opacity: 0.4;
   }
   
   .cardFront{
