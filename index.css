@@ -222,6 +222,14 @@ p{
      visibility: hidden;
      align-content: center;
     }
+    /* aligning homework cards in middle*/
+
+.align{
+  margin-left:auto;
+  margin-right:auto;
+  display:block;
+  justify-content: right;
+}
   }
 
   @media only screen and (max-width: 992px) {
@@ -657,4 +665,4 @@ p{
       text-align: middle !important; 
      }
 
-     
+
