@@ -1,20 +1,17 @@
 # Portfolio
 
-This is a my portfolio built using the tools listed below. My portfolio  representes my work as a web developer, it contains projects using javascript, firebase, Jquery, Moment and more! You will find links to my Github and Linkedin, and more about me as a professional.
+Welcome to my Portfolio! Here you can find all things regarding my web development experience. Always continuing to add too. Project are deployed on Heroku, and the website is mobile responsive ! Get to know me a little bit by exploring the site and work! 
 
 
-
-## Running Tests 
-
-Open the file in  your browser (preferably google chrome) to test the code. 
-This will display the website built! 
 
 ## Built with:
 <ol>
 <li> HTML 
 <li> CSS 
+<li> Jquery
 <li> Media Queries 
 <li> Google Fonts
+<li> Form Spree
 </ol>
 
 #Local Development Environment for website Repo
