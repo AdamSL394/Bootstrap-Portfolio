@@ -23,5 +23,5 @@ The following will get up and running locally.
 Author
 Adam Lehrer
 
-![Personal Portfolio](imgs/Portfolio.jpg)
+![Personal Portfolio](imgs/Portfolio.gif)
 
