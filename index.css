@@ -629,19 +629,19 @@ p{
       }
 
      #emailArea{
-      border: 2px solid lightblue;
+      border: 1px solid rgb(17, 103, 135);
       width: 80%;
       margin-left: 15px;
      }
 
      #subjectArea{
-      border: 2px solid lightblue;
+      border: 1px solid rgb(17, 103, 135);
       width: 80%;
       margin-left: 15px;
      }
 
      #messageArea{
-      border: 2px solid lightblue;
+      border: 1px solid rgb(17, 103, 135);
       width: 95%;
       height: 200px;
       margin-left: 15px;
